@@ -8,4 +8,4 @@ until guess == random_number
         guess = gets.chomp.to_i
 end
 
-puts "Woo that's correct! Well done"
+puts "Woo that's correct! Well done!"
