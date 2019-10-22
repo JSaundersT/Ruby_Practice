@@ -9,7 +9,7 @@ input = gets
 name = input.chomp
 puts "Welcome, #{name}!"
 
-# Store a random number for the player to guess.
+# Store a random number for the player to guess..
 puts "I've got a random number between 1 and 100."
 puts "Can you guess it?"
 target = rand(100) + 1
@@ -30,11 +30,11 @@ until num_guesses == 10 || guessed_it
 
     # Compare the guess to the target.
     # Print the appropriate message.
-    if guess < target  
+    if guess < target
         puts "Oops. Your guess was LOW."
     elsif guess > target
         puts "Oops. Your guess was HIGH."
-    elsif guess == target  
+    elsif guess == target
         puts "Good job, #{name}!"
         puts "You guessed my number in #{num_guesses} guesses!"
         guessed_it = true
