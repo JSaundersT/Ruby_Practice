@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # Get My Number Game
 # Written by: James Saunders!
 
